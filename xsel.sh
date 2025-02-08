@@ -15,13 +15,7 @@ line1="alias pbcopy='xsel --input --clipboard'" && file="$HOME/.bashrc" && (grep
 line2="alias pbpaste='xsel --output --clipboard'" && file="$HOME/.bashrc" && (grep -qFx "$line2" "$file" || echo "$line2" >> "$file")
 
 
-
-
 echo 'refresh the bashrc file using command: source .bashrc'
-
-
-
-
 
 
 #ifconfig | xsel --input --clipboard
